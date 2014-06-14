@@ -1,0 +1,82 @@
+ul
+  &.bjqs
+    position relative
+    list-style none
+    padding 0
+    margin 0
+    overflow hidden
+    display none
+  &.bjqs-controls
+    list-style none
+    margin 0
+    padding 0
+    z-index 9999
+    &.v-centered
+      li
+        a
+          position absolute
+          display block
+          padding 10px
+          background whitesmoke
+          color #000
+          text-decoration none
+          opacity .75
+          transition color .5s ease, background .5s ease
+          -webkit-transition color .5s ease, background .5s ease
+          -moz-transition color .5s ease, background .5s ease
+          -o-transition color .5s ease, background .5s ease
+          &:hover
+            background #000
+            color #fff
+        &.bjqs-next
+          a
+            right 0
+        &.bjqs-prev
+          a
+            left 0
+
+li
+  &.bjqs-slide
+    position absolute
+    display none
+
+ol
+  &.bjqs-markers
+    list-style none
+    padding 0
+    margin 0
+    width 100%
+    margin-top 35px
+    &.h-centered
+      text-align center
+    li
+      display inline
+      a
+        display inline-block
+        padding 5px 10px
+        background #000
+        color #fff
+        margin 5px
+        text-decoration none
+        transition background .5s ease
+        -webkit-transition background .5s ease
+        -moz-transition background .5s ease
+        -o-transition background .5s ease
+
+p
+  &.bjqs-caption
+    display block
+    width 96%
+    margin 0
+    padding 2%
+    position absolute
+    bottom 0
+
+.bjqs-caption
+  color black
+  background whitesmoke
+  opacity .75
+
+li.active-marker a, ol.bjqs-markers li a:hover
+  background gray!important
+

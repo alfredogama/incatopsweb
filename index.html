@@ -5,6 +5,10 @@
 	<title>Inca Tops Alpaca Yarns</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Importamos la libreria jQuery -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  	<!-- Importamos el plugin -->
+	<script src="js/bjqs.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -18,16 +22,36 @@
 	</header>
 	<nav class="menu">
 		<ul class="list">
-			<list class="item">HOME</list>
-			<list class="item">OUR GENES</list>
-			<list class="item">OUR YARNS & TOPS</list>
-			<list class="item">OUR COMMUNITY</list>
-			<list class="item">JUST IN TIME</list>
-			<list class="item">CONTACT US</list>
+			<list class="item"><a href="">HOME</a></list>
+			<list class="item"><a href="">OUR GENES</a></list>
+			<list class="item"><a href="">OUR YARNS & TOPS</a></list>
+			<list class="item"><a href="">OUR COMMUNITY</a></list>
+			<list class="item"><a href="">JUST IN TIME</a></list>
+			<list class="item"><a href="">CONTACT US</a></list>
 		</ul>
 	</nav>
-	<section class="slider">
-		
+	<section class="slidercontainer">
+		  <!-- SLIDESHOW -->
+      
+	    <div id="slider">
+	        <ul class="bjqs">
+	            <li>
+	                <img src="img/1.jpg" alt="" title="Este mensaje se ve automaticamente si se incluye en el tag title de la imagen" />
+	            </li>
+	            <li>
+	                <img src="img/2.jpg" alt="" title="El aspecto de este texto se modifica con CSS en la clase bjqs-caption" />
+	            </li>
+	            <li>
+	                <img src="img/3.jpg" alt="" title="Para eliminarlo, simplemente remover el tag title en la imagen" />
+	            </li>
+	        </ul>
+	    </div>
+	      
+	    <!-- FIN SLIDESHOW -->
+     
+    <!-- IMPORTAMOS SCRIPT.JS -->
+    <script src="js/script.js"></script>
+
 	</section>
 	<section class="container">
 		<article class="product">
